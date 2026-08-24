@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ganeshram — Portfolio</title>
+<link rel="icon" type="image/png" href="assets/profile.png">
+
+<meta name="description" content="Portfolio of Ganeshram — Information Technology. Home, About, Resume and Contact.">
+<!-- Lato font, with safe system fallback if offline -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================= NAVBAR ============================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Ganesh<span>ram</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-link>Home</a>
+      <a href="#about" class="nav-link" data-link>About</a>
+      <a href="#projects" class="nav-link" data-link>Projects</a>
+      <a href="#resume" class="nav-link" data-link>Resume</a>
+      <a href="#contact" class="nav-link" data-link>Contact</a>
+      <a href="assets/Ganeshram_S_Resume.pdf" download="Ganeshram_S_Resume.pdf" class="nav-cta">Download CV</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================= HOME ============================= -->
+<section id="home" class="section hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="container hero-grid">
+    <div class="hero-inner">
+      <p class="tagline fade-up">👋 Welcome to my portfolio</p>
+      <h1 class="hero-title fade-up" style="animation-delay:.1s">
+        Hi, I'm <span class="highlight">Ganeshram</span>
+      </h1>
+      <h2 class="hero-role fade-up" style="animation-delay:.2s">
+        <span id="typed"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc fade-up" style="animation-delay:.3s">
+        I design and build clean, fast, and reliable web applications —
+        from the first pixel to the last line of code.
+      </p>
+      <div class="hero-btns fade-up" style="animation-delay:.4s">
+        <a href="#contact" class="btn btn-primary" data-link>Let's Talk</a>
+        <a href="#resume" class="btn btn-outline" data-link>View Resume</a>
+      </div>
+
+      <div class="socials fade-up" style="animation-delay:.5s">
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="www.linkedin.com/in/ganeshram-s-534b20371" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+        <a href="mailto:ganeshram8248@gmail.com" aria-label="Email">✉</a>
+      </div>
+
+      <div class="hero-stats fade-up" style="animation-delay:.6s">
+        <div><strong>2+</strong><span>Years Experience</span></div>
+        <div><strong>7+</strong><span>Projects Done</span></div>
+        <div><strong>3+</strong><span>Happy Clients</span></div>
+      </div>
+    </div>
+
+    <div class="hero-photo fade-up" style="animation-delay:.3s">
+      <div class="photo-ring">
+        <img src="assets/ganeshram.jpeg" alt="Portrait of Ganeshram">
+      </div>
+      <div class="floating-badge badge-1">🎓 B.Sc (IT)</div>
+      <div class="floating-badge badge-2">💼 Open to Work</div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" data-link aria-label="Scroll to About">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section id="about" class="section about">
+  <div class="container">
+    <p class="eyebrow reveal">About Me</p>
+    <h2 class="section-title reveal">A little about who I am</h2>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+         I'm Ganeshram, a third-year Information Technology student who enjoys turning ideas into clean, functional digital products. I focus on building responsive                      websites and user-friendly applications with readable code, smooth performance, and attention to detail. I'm always learning new technologies and continuousl          y improving my development and design skills. </p>
+        <p>
+          Whether it's a slow page that needs to get fast, or a rough idea that
+          needs to ship, I like being handed a problem more than a spec.
+        </p>
+
+        <div class="info-grid">
+          <div><strong>Name</strong><span>Ganeshram</span></div>
+          <div><strong>Email</strong><span>ganeshram8248@gmail.com</span></div>
+          <div><strong>Location</strong><span> Maduari India</span></div>
+          <div><strong>Availability</strong><span>Open to work</span></div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-text">
+            <h4>Bachelor of Technology — Information Technology &amp; Arts</h4>
+            <p>The American college · 2024 – 2027 · CGPA 7.9 / 10</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills reveal">
+        <h3>Skills</h3>
+        <div class="skill">
+          <div class="skill-top"><span>HTML / CSS / JavaScript</span><span>95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="95"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top"><span>Python- Django / Flask</span><span>90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="90"></div></div>
+        </div>
+        <!--<div class="skill">
+          <div class="skill-top"><span>Node.js / APIs</span><span>85%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="85"></div></div>
+        </div>-->
+
+        <div class="skill">
+          <div class="skill-top"><span>Databases</span><span>75%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="75"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top"><span>AI- Lovable,claude,ChatGPT</span><span>90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-fill="90"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PROJECTS ============================= -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <p class="eyebrow reveal">Projects</p>
+    <h2 class="section-title reveal">Things I've built</h2>
+    <p class="section-sub reveal">A few projects that show how I think, design, and ship.</p>
+
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-1.png" alt="GaneshramPortfolio" loading="lazy">
+        </div>
+        <div class="project-body">
+          <h3>Ganeshram Portfolio</h3>
+          <p>A modern personal portfolio showcasing my skills, projects, experience, and achievements in web development and technology.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo ↗</a>
+           <!-- <a href="#" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>-->
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-2.png" alt="Ganeshram Technologies" loading="lazy">
+        </div>
+        <div class="project-body">
+          <h3>Ganeshram Technologies</h3>
+         <p>Ganeshram Technologies is a technology-focused company that builds modern websites, web applications, and innovative digital solutions using the latest technologies.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo ↗</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-3.png" alt="EasyBill- POS" loading="lazy">
+        </div>
+        <div class="project-body">
+          <h3>EasyBill-POS</h3>
+          <p>EasyBill-POS is a simple billing and inventory system for managing sales, products, GST, stock, and invoices efficiently.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>Django</span><span>SQL</span><span>Safe and Security</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo ↗</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= RESUME ============================= -->
+<section id="resume" class="section resume">
+  <div class="container">
+    <p class="eyebrow reveal">Resume</p>
+    <h2 class="section-title reveal">My Resume</h2>
+    <p class="section-sub reveal">Download a copy, or open it in a new tab to view it in full.</p>
+
+    <div class="resume-card reveal">
+      <div class="resume-icon">📄</div>
+      <div class="resume-info">
+        <h3>Ganeshram_S_Resume.pdf</h3>
+        <p>Updated July 2026 · 1 page</p>
+      </div>
+      <div class="resume-actions">
+        <a href="assets/Ganeshram_S_Resume.pdf" download="Ganeshram-Resume.pdf" class="btn btn-primary">⭳ Download</a>
+        <a href="assets/Ganeshram_S_Resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">View in new tab ↗</a>
+      </div>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <span class="year">2026 — Present</span>
+        <h4>Information Technology, Freelance</h4>
+        <p>Building full-stack web apps for startups and small businesses end to end.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <span class="year">2025 — 2026</span>
+        <h4>Junior Developer</h4>
+        <p>Worked on internal tools and customer-facing features across the stack.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <span class="year">2024 — 2027</span>
+        <h4>B.Sc, Information Technology &amp; Arts — The American college</h4>
+        <p>Core coursework in data structures, algorithms, databases, and software engineering. Graduated with a CGPA of 8.2/10.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <p class="eyebrow reveal">Contact</p>
+    <h2 class="section-title reveal">Let's build something together</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>Have a project or an idea? Send a message — I reply within a day or two.</p>
+        <ul>
+          <li><strong>Email</strong><a href="mailto:ganeshram8248@gmail.com">ganeshram8248@gmail.com</a></li>
+          <li><strong>Phone</strong><a href="tel:+91 8248703979">+91 8248703979</a></li>
+          <li><strong>Location</strong><span>Maduari India (open to remote work)</span></li>
+        </ul>
+      </div>
+
+      <form id="contactForm" class="contact-form reveal" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="example@gmail.com" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message →</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="footer">
+  <p>© <span id="year"></span> Ganeshram S. All rights reserved.</p>
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
